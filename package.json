@@ -1,0 +1,16 @@
+{
+  "name": "juan-felipe-gomez-portfolio",
+  "version": "1.0.0",
+  "description": "Portafolio",
+  "main": "jquery.sticky-kit.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "portfolio",
+    "js",
+    "javascript"
+  ],
+  "author": "Juan Felipe Gómez",
+  "license": "ISC"
+}
