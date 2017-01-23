@@ -34,14 +34,20 @@ body{
 }
 
 h1{
-	font-family: Corbert, Helvetica, Arial;
+	font-family: 'Raleway', Helvetica, Arial;
 	padding:0;
 	padding-top: 10px;
-	font-weight: normal;
+	font-weight: 500;
+}
+.disenador {
+	font-weight: 300!important;
+}
+.hola {
+	font-weight: 100!important;
 }
 
 h2{
-	font-family: Corbert, Helvetica, Arial;
+	font-family: 'Raleway', Helvetica, Arial;
 	font-size: 2em;
 	padding: 0px;
 	margin: 0px;
@@ -228,6 +234,27 @@ color: #999999;
 #bloque_foto p{
 	padding-left: 2px;
 	padding-right: 2px;
+}
+
+.tag, .subtag{
+	float: left;
+	font-size: 12px;
+	font-family: 'Oxygen', sans-serif;
+	padding: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+.tag {
+	background-color: #ccc;
+	color: white;
+	font-weight: 300;
+}
+.subtag {
+	font-weight: 100;
 }
 
 #bloque_submenu{

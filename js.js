@@ -8,10 +8,8 @@ $( document ).ready(function() {
 	if (($("#bloque_submenu").css("float")) == "left"){
 		$(document.body).trigger("sticky_kit:recalc");
 		$("#bloque_submenu").stick_in_parent({offset_top: 20});
-		console.log("entra");
 	}else{
 		$("#bloque_submenu").trigger("sticky_kit:detach");
-		console.log("no entra");
 	}
 });
 
